@@ -84,6 +84,69 @@ P {
     display: inline-block;
     margin-left: 5px;
 }
+
+/*--------------SVG STYLING------------------*/
+svg{height: 100%; width: 100%}
+a:hover path{opacity: 0.5;}
 text {
     text-anchor: end;
+    font-family: 'TajawalBold', sans-serif;
+    font-size: 0.6rem;
+}
+.red-zone{
+    fill: var(--red-color);
+}
+.red-zone text{
+    fill: #fff;
+}
+.yellow-zone{
+    fill: var(--yellow-color);
+}
+.green-zone{
+    fill: var(--green-color);
+}
+#map .zone {
+    cursor: pointer;
+    position: relative;
+}
+#map .zone .shape {
+    cursor: pointer;
+    -width: 0;
+}
+#map .zone .label_zone, #map .zone .label_counter_zone {
+    display: none;
+}
+#map .zone .label_icon_zone {
+    display: block;
+}
+#map .zone:hover .label_icon_zone, #map .zone.hover .label_icon_zone {
+    display: none;
+}
+.label_zone{
+    fill: #ffffff;
+}
+.zone_tooltip{
+    display: none;
+    padding: 10px;
+    background-color:rgba(0,0,0,0.8);
+    position:absolute;
+    color: #fff;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.zone_tooltip_number{
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    font-family: 'TajawalBold', sans-serif;
+    font-size: 0.8rem;
+}
+.fadeInTop { animation-name: fadeInTop }
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to { opacity: 1 }
 }
