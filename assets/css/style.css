@@ -3,6 +3,7 @@
     --yellow-color:#F7AB24;
     --green-color:#028F66;
     --blue-color:#366273;
+    --gray-color:#a8aaa9;
 }
 html{
     direction: rtl;
@@ -105,15 +106,23 @@ text {
 .green-zone{
     fill: var(--green-color);
 }
+.gray-zone{
+    fill: var(--gray-color);
+}
+.gray-zone text{
+    fill: #333;
+}
+#map{
+    position: relative;
+}
 #map .zone {
     cursor: pointer;
-    position: relative;
 }
 #map .zone .shape {
     cursor: pointer;
     -width: 0;
 }
-#map .zone .label_zone, #map .zone .label_counter_zone {
+#map .zone .label_zone, #map .zone .label_counter_zone, #map .zone .label_new_zone {
     display: none;
 }
 #map .zone .label_icon_zone {
@@ -134,6 +143,7 @@ text {
     border-radius: 5px;
     animation-duration: 1s;
     animation-fill-mode: both;
+    z-index: 1000;
 }
 .zone_tooltip_number{
     background: #fff;
@@ -141,6 +151,15 @@ text {
     padding: 5px;
     font-family: 'TajawalBold', sans-serif;
     font-size: 0.8rem;
+}
+
+.zone_tooltip_new {
+    background: var(--red-color);
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    font-size: 0.65rem;
+    padding: 0.3rem;
 }
 .fadeInTop { animation-name: fadeInTop }
 @keyframes fadeInTop {
