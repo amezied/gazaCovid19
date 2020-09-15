@@ -126,12 +126,15 @@ text {
 }
 .section:hover path{opacity: 1;}
 .text_section{
-    text-align: center;
-}
-.section text {
-    text-anchor: middle;
     font-size: 0.8rem;
 }
+.num_section{
+    font-size: 1.5rem;
+}
+.new_section{
+    font-size: 0.7rem;
+}
+
 #map .zone .shape {
     cursor: pointer;
     -width: 0;
