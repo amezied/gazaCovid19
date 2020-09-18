@@ -53,6 +53,11 @@ P {
     font-family: 'TajawalBold', sans-serif;
     line-height: 1.2;
 }
+.medium-text{
+    font-size: 2rem;
+    font-family: 'TajawalBold', sans-serif;
+    line-height: 1.2;
+}
 .cases-box{
     border-radius: 3px;
     padding-right: 2rem;
@@ -118,6 +123,14 @@ text {
 .gray-zone text{
     fill: #333;
 }
+.red-stroke{
+    stroke: var(--red-color);
+    stroke-width: 1px;
+    fill: none;
+}
+.red-stroke.big-stroke{
+    stroke-width: 3px;
+}
 #map{
     position: relative;
 }
@@ -130,6 +143,9 @@ text {
 }
 .num_section{
     font-size: 1.5rem;
+}
+.num_section.big_num_section{
+    font-size: 1.2rem;
 }
 .new_section{
     font-size: 0.7rem;

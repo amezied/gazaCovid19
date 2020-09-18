@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Ala'a Mezied">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
     <title>Covid-19 in GAZA</title>
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -13,18 +26,36 @@
 <body>
 <div class="page">
     <div class="container">
-        <div class="row align-items-center text-center pt-5">
-            <div class="col-12 col-md-6">
+        <div class="row align-items-center text-center pt-5 pt-md-3">
+            <div class="col-12 col-md-4 col-lg-6">
                 <h3 class="blue-color">إحصائية تراكمية</h3>
-                <h2 class="red-color mb-5">جائحة كورونا في قطاع غزة</h2>
-                <h4 class="blue-color mb-3">إجمالي المصابين</h4>
-                <div class="row justify-content-center">
-                    <div class="red-bg col-auto white-color cases-box mb-5">
-                        <p class="big-text mt-2">518</p>
-                        <p class="mb-3">110 حالة جديدة</p>
+                <h2 class="red-color">جائحة كورونا في قطاع غزة</h2>
+                <em>آخر تحديث : </em><time id="date"></time>
+
+                <h4 class="blue-color mt-5 mb-3">إجمالي المصابين</h4>
+                <div class="row justify-content-center mb-3">
+                    <div class="red-bg col-auto white-color cases-box px-4">
+                        <p class="big-text mt-2">2223</p>
+                        <p class="mb-3">47 حالة جديدة</p>
                     </div>
                 </div>
-                <div class="row guid-box blue-color mt-5 ">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <h5 class="blue-color my-3">حالات التعافي</h5>
+                        <div class="green-bg white-color cases-box py-1 px-4">
+                            <p class="medium-text mt-2">468</p>
+                            <p class="mb-3">48 حالة جديدة</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <h5 class="blue-color my-3">حالات الوفاة</h5>
+                        <div class="blue-bg white-color cases-box py-1 px-4">
+                            <p class="medium-text mt-2">17</p>
+                            <p class="mb-3">1 حالة جديدة</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row guid-box blue-color mt-5 d-none">
                     <div class="col-12 col-md-auto">
                         <p class="d-flex align-items-center"><span class="color-box red-bg"></span> منع الحركة بشكل تام</p>
                     </div>
@@ -36,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-8 col-lg-6 mt-5 mt-md-0">
                 <div class="zone_tooltip fadeInTop">
                     <span class="zone_tooltip_name"></span>
                     <span class="badge zone_tooltip_number"></span>
@@ -61,8 +92,8 @@
                                     <path id="shape_BaitLahia" class="shape" data-name="بيت لاهيا" d="M1480,353.333a82.623,82.623,0,0,0,6.667-7.667c1.667-2.521,22.958-33.1,22.958-33.1a50.255,50.255,0,0,0,5,6.375c.333.167,4.938,4.438,7.875,6.4s7.625,3.625,7.625,3.792c.5,2-.187,4.563.563,6.875s6.021,2.938,6.479,4,.5,1.344,3.083,2.063,3.375-.5,7.25.813a15.213,15.213,0,0,0,6.688,0,5.649,5.649,0,0,1,2.313,3.063,14.163,14.163,0,0,1,0,4.4h2.563l.313,15.854s1.844-.7,2.458,0,.354,2.563.354,2.563-1.724,1.688-1.812,2.917,2.125,0,2.125,0a40.024,40.024,0,0,1,5.313,3.958c.167,0-4.979,11.875-4.979,11.875s-2.167,4.333-3.167,4a11.865,11.865,0,0,1-5.5-4c-1.167-2.5-4.354-7.875-5.417-8.75a3.038,3.038,0,0,0-3.375-.583c-1.437.49-1.13,1.641-2.125,1.958a2.43,2.43,0,0,1-2.562-.687c-.687-.687-.6-1.271-2.437-1.271a2.891,2.891,0,0,0-2.5,1.958s-1.354,1.771-2.687,1.438-4.125-4.312-7.062-5.062c-1.375-1.187.563-3.312.688-4.875s1.063-5.75-6.021-4.792c-.667.333-5.354.854-7.1,0-.75-.4-.812-.4-1.062-1.458a8.38,8.38,0,0,1-3.937.938,4.558,4.558,0,0,1-3.687-.937c-1.375-1.375-3.5,0-3.5,0l-2.062,2a2.126,2.126,0,0,1-2.875,0C1495.1,366.042,1480,353.333,1480,353.333Z" transform="translate(-1124.976 -293)"/>
                                     <text id="label_icon_BaitLahia" class="label_icon_zone" transform="translate(380 60)">بيت لاهيا</text>
                                     <text id="label_zone_BaitLahia" class="label_zone" transform="translate(310 0)">بيت لاهيا</text>
-                                    <text id="label_cout_BaitLahia" class="label_counter_zone">80</text>
-                                    <text id="label_new_BaitLahia" class="label_new_zone">1</text>
+                                    <text id="label_cout_BaitLahia" class="label_counter_zone">210</text>
+                                    <text id="label_new_BaitLahia" class="label_new_zone">2</text>
                             </a>
 
                             <g id="zone_UmThuhir" class="gray-zone">
@@ -74,16 +105,16 @@
                                 <path id="shape_Jabalia" class="shape" data-name="جباليا" d="M1467,371v-1.625a106.723,106.723,0,0,0,9.063-7.25A6.34,6.34,0,0,0,1478,358.75c0-.875-1.75-1.5-1.937-2.187a2.137,2.137,0,0,1,1.063-2.187,2.561,2.561,0,0,1,2.438,0c.438.375,10.25,9.063,10.25,9.063s5.625,4.875,6.313,5.438a2.8,2.8,0,0,0,3.313,0c1.063-.875,2.938-2.812,3.75-2.75s1.625,1.188,2.313,1.375,4.75.563,6.5-.5c.313.125.688,1.563,4.063,1.5s6.625-1,7.438-.75,1.938.75,2.188,1.813a5.726,5.726,0,0,1-.437,3.313,8.216,8.216,0,0,0-.812,3c0,1.031.375,1.563,1.625,1.875s4.813,4.125,5.438,4.688,3.25.5,3.938-.312,1-2.062,1.688-2.25,1.063-.562,2-.312.813,1.125,1.938,1.5,1.625.813,2.563,0,.453-.8,1.688-1.5a2.175,2.175,0,0,1,2.25,0,21.825,21.825,0,0,1,1.938,2.125c.953,1.2.7,1.125,2,3s.953,3.141,2.75,4.813a22.877,22.877,0,0,0,4.625,3.063s-8,4.875-9.062,5.875a21.812,21.812,0,0,1-5.625,2.875c-.687.125-5,1.438-5.75,1.563s-3,.75-4.125.875a28.819,28.819,0,0,0-4.812,1.938l-12.812,8.375s-4.187-.187-4.25,3a11.368,11.368,0,0,1-2.937-1.562s-2.625-2.947-4-4.259-11.25-7.8-11.25-7.8,3.683-2.624,4.688-5.187c1-1.016,2.063-.536,2.75-2.411s.5-4.339,0-5.089-2.375-1.437-3.062-1.875-9.125-4.984-16.562-9.312-9.984-5.859-13.75-8A2.343,2.343,0,0,0,1467,371Z" transform="translate(-1124.976 -293)"/>
                                 <text id="label_icon_Jabalia" class="label_icon_zone" transform="translate(380 100)">جباليا</text>
                                 <text id="label_zone_Jabalia" class="label_zone" transform="translate(310 30)">جباليا</text>
-                                <text id="label_cout_Jabalia" class="label_counter_zone">80</text>
-                                <text id="label_new_Jabalia" class="label_new_zone">1</text>
+                                <text id="label_cout_Jabalia" class="label_counter_zone">328</text>
+                                <text id="label_new_Jabalia" class="label_new_zone">8</text>
                             </a>
 
                             <a id="zone_ElShaikhRadwan" class="zone gray-zone" >
                                 <path id="shape_ElShaikhRadwan" class="shape" data-name="الشيخ رضوان" d="M1465.409,370.968l33.864,19.706s1.818.478,1.244,3.061a4.034,4.034,0,0,1-3.252,2.965l-11-7.461-10.905-6.792-12.34-9.183Z" transform="translate(-1124.976 -293)"/>
                                 <text id="label_icon_ElShaikhRadwan" class="label_icon_zone" transform="translate(335 70) rotate(40)">الشيخ رضوان</text>
                                 <text id="label_zone_ElShaikhRadwan" class="label_zone" transform="translate(280 30)">الشيخ رضوان</text>
-                                <text id="label_cout_ElShaikhRadwan" class="label_counter_zone">80</text>
-                                <text id="label_new_ElShaikhRadwan" class="label_new_zone">1</text>
+                                <text id="label_cout_ElShaikhRadwan" class="label_counter_zone">204</text>
+                                <text id="label_new_ElShaikhRadwan" class="label_new_zone">15</text>
                             </a>
 
                             <path id="Path_13" class="gray-zone" data-name="Path 13" d="M1493.246,403.875c.67-.383,9.949,6.888,9.949,6.888s5.644,4.687,6.5,6.6c.287.383-1.6,1-2.678,1.531a4.25,4.25,0,0,1-2.678,0l.765-2.1s.191-1.531-1.913-2.3-3.157.191-5.644-.765c-1.722-2.583-2.7-2.2-4.879-3.826s-1.913-1.913-3.826-2.678a9.857,9.857,0,0,1-2.391,0s-.1-.765,0-.861C1489.707,403.588,1492.576,404.257,1493.246,403.875Z" transform="translate(-1124.976 -293)"/>
@@ -93,8 +124,8 @@
                                 <path id="shape_Shatee" class="shape" data-name="الشاطئ" d="M1453.93,383.5a25.43,25.43,0,0,0,3.348-2.009c1.578-1.148,2.583-2.487,2.965-2.583s3.348,2.583,3.348,2.583L1459,387.326s0,4.5,1.626,6.314,1.244,3.157,1.244,3.157-.782,1.2-1.786,1.2-1.37-1.11-2.231-1.2c-3.444-1.052-4.544.5-7.557,0a8.578,8.578,0,0,1-4.5-2.009Z" transform="translate(-1124.975 -293)" />
                                 <text id="label_icon_Shatee" class="label_icon_zone" transform="translate(300 100)">الشاطئ</text>
                                 <text id="label_zone_Shatee" class="label_zone" transform="translate(290 45)">الشاطئ</text>
-                                <text id="label_cout_Shatee" class="label_counter_zone">80</text>
-                                <text id="label_new_Shatee" class="label_new_zone">1</text>
+                                <text id="label_cout_Shatee" class="label_counter_zone">84</text>
+                                <text id="label_new_Shatee" class="label_new_zone">2</text>
                             </a>
 
                             <path id="Path_16" class="gray-zone" data-name="Path 16" d="M1460.722,378.429c.237.194,3.348,2.678,3.348,2.678l2.965-2.678-4.592-2.965S1461.774,376.612,1460.722,378.429Z" transform="translate(-1124.975 -293)"/>
@@ -103,8 +134,8 @@
                                 <path id="shape_Nasser" class="shape" data-name="النصر" d="M1467.7,379s-6.314,5.261-7.462,8.322,2.678,8.8,2.678,8.8l15.114,12.149,8.8-7.844-6.409-4.783,4.687-4.687Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_Nasser" class="label_icon_zone" transform="translate(340 100)">النصر</text>
                                 <text id="label_zone_Nasser" class="label_zone" transform="translate(290 45)">النصر</text>
-                                <text id="label_cout_Nasser" class="label_counter_zone">80</text>
-                                <text id="label_new_Nasser" class="label_new_zone">1</text>
+                                <text id="label_cout_Nasser" class="label_counter_zone">30</text>
+                                <text id="label_new_Nasser" class="label_new_zone">3</text>
                             </a>
 
                             <path id="Path_18" class="gray-zone" data-name="Path 18" d="M1492.863,396.6c2.391,1.483,2.583.957,2.583.957s-.191,3.635-2.583,4.018a8.455,8.455,0,0,1-4.974-1.244l-5.931-4.592,3.922-4.113S1490.472,395.122,1492.863,396.6Z" transform="translate(-1124.976 -293)" />
@@ -114,7 +145,7 @@
                                 <path id="shape_Daraj" class="shape" data-name="الدرج" d="M1487.506,401.483a24.8,24.8,0,0,0,3.731.957,22.72,22.72,0,0,0-5.261,2.391c-1.626,1.244-2.1,1.244-2.2,2.1s.383.741,1.626,1.244,2.678.478,3.348.765,4.687,3.539,5.644,4.018-2.1,1.435-3.157,2.774a47.787,47.787,0,0,0-3.061,5.453V425.3a8.269,8.269,0,0,0-.67,2.2c-.191,1.244,0,2.009.67,2.391s2.3,1.244,2.3,1.244v1.339l-2.965-.478s-1.531-1.339-2.1-1.722-3.348-1.435-5.07-1.052a25.7,25.7,0,0,0-5.548,1.913c-.383.383-11-8.322-11-8.322s6.8-6.559,13.342-13.065c.144-.142,1.224-.157,1.563-.5C1479.261,408.485,1486.646,401.063,1487.506,401.483Z" transform="translate(-1124.976 -293)"/>
                                 <text id="label_icon_Daraj" class="label_icon_zone" transform="translate(340 130)">الدرج</text>
                                 <text id="label_zone_Daraj" class="label_zone" transform="translate(300 65)">الدرج</text>
-                                <text id="label_cout_Daraj" class="label_counter_zone">80</text>
+                                <text id="label_cout_Daraj" class="label_counter_zone">72</text>
                                 <text id="label_new_Daraj" class="label_new_zone">1</text>
                             </a>
                             
@@ -122,32 +153,32 @@
                                 <path id="shape_Tufah" class="shape" data-name="التفاح" d="M1495.542,413.823a3.025,3.025,0,0,0,2.009,1.148c1.244.1,3.731.67,4.113.574s1.244.861,1.339,2.009-.335,1.77.574,2.487,3.061.383,3.061.383l1.818-.383s-4.687,2.965-5.453,3.539-6.027,5.166-6.027,5.166l-4.4,3.539a29.084,29.084,0,0,0-4.018-3.061c-.574-1.435-.478-1.435,0-2.1a8.286,8.286,0,0,0,.765-2.487,23.86,23.86,0,0,1,0-2.678,12.079,12.079,0,0,1,2.009-4.018c.861-1.052,2.487-2.965,2.487-2.965Z" transform="translate(-1124.976 -293)"/>
                                 <text id="label_icon_Tufah" class="label_icon_zone" transform="translate(365 130)">التفاح</text>
                                 <text id="label_zone_Tufah" class="label_zone" transform="translate(310 70)">التفاح</text>
-                                <text id="label_cout_Tufah" class="label_counter_zone">80</text>
-                                <text id="label_new_Tufah" class="label_new_zone">1</text>
+                                <text id="label_cout_Tufah" class="label_counter_zone">163</text>
+                                <text id="label_new_Tufah" class="label_new_zone">0</text>
                             </a>
 
                             <a id="zone_RemalJanobi" class="zone gray-zone" >
                                 <path id="shape_RemalJanobi" class="shape" data-name="الرمال الجنوبي" d="M1440.917,401.466s3.25,2.7,3.583,3.451,0,2.5.333,3.333a9.934,9.934,0,0,0,2.25,3.083c1,.917,13.333,10.417,13.333,10.417l-1.542,2.5a7.031,7.031,0,0,1-3,1c-1.375,0-2.792-1-3.542-1s-5.583,4.583-5.583,4.583l-6.333,5.083s-8.4-5.146-12.167-7.917-2.917-3.167-2.917-3.167Z" transform="translate(-1124.975 -293)" />
                                 <text id="label_icon_RemalJanobi" class="label_icon_zone" transform="translate(270 130)">الرمال الجنوبي</text>
                                 <text id="label_zone_RemalJanobi" class="label_zone" transform="translate(240 65)">الرمال الجنوبي</text>
-                                <text id="label_cout_RemalJanobi" class="label_counter_zone">80</text>
-                                <text id="label_new_RemalJanobi" class="label_new_zone">1</text>
+                                <text id="label_cout_RemalJanobi" class="label_counter_zone">51</text>
+                                <text id="label_new_RemalJanobi" class="label_new_zone">0</text>
                             </a>
 
                             <a id="zone_RemalShamali" class="zone gray-zone" >
                                 <path id="shape_RemalShamali" class="shape" data-name="الرمال الشمالي" d="M1445.25,395.583s5.417,3,8,2.083,2.521-.312,4.333,0c1.583,1.917,2.917,1.25,2.917,1.25a5.9,5.9,0,0,0,2.083-1.833l14.333,11.333-6.106,6.175-1.227,1.241L1467.917,417l-4.75,5.083L1451.5,413.5s-4.333-3.667-4.667-5.083-.667-3.833-.667-3.833a53.592,53.592,0,0,0-4.5-3.833C1440.75,400.25,1445.25,395.583,1445.25,395.583Z" transform="translate(-1124.975 -293)" />
                                 <text id="label_icon_RemalShamali" class="label_icon_zone" transform="translate(280 115)">الرمال الشمالي</text>
                                 <text id="label_zone_RemalShamali" class="label_zone" transform="translate(250 55)">الرمال الشمالي</text>
-                                <text id="label_cout_RemalShamali" class="label_counter_zone">80</text>
-                                <text id="label_new_RemalShamali" class="label_new_zone">1</text>
+                                <text id="label_cout_RemalShamali" class="label_counter_zone">63</text>
+                                <text id="label_new_RemalShamali" class="label_new_zone">2</text>
                             </a>
 
                             <a id="zone_Sabra" class="zone gray-zone" >
                                 <path id="shape_Sabra" class="shape" data-name="الصبرة" d="M1461.333,422.667,1473.5,432a1.541,1.541,0,0,1,.833,1.25c0,.833-.833,5-.833,5s-.583,1.75-2,1.833-7.833-1.833-7.833-1.833-8.333-3.833-9.167-3.667a4.7,4.7,0,0,0-2.417,1.333,14.993,14.993,0,0,1-3.5,2.333,3.673,3.673,0,0,1-2.833,0l-4.833-3.25s10.417-8.667,11.167-8.833,1.25.583,1.75.583,1.917.667,2.583.333,3.25-1.833,3.75-2.917A3.592,3.592,0,0,1,1461.333,422.667Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_Sabra" class="label_icon_zone" transform="translate(315 141)">الصبرة</text>
                                 <text id="label_zone_Sabra" class="label_zone" transform="translate(270 75)">الصبرة</text>
-                                <text id="label_cout_Sabra" class="label_counter_zone">80</text>
-                                <text id="label_new_Sabra" class="label_new_zone">1</text>
+                                <text id="label_cout_Sabra" class="label_counter_zone">100</text>
+                                <text id="label_new_Sabra" class="label_new_zone">2</text>
                             </a>
                             
                             <path id="Path_25" class="gray-zone" data-name="Path 25" d="M1424,423.5a43.756,43.756,0,0,0,9.25,7.5,7.561,7.561,0,0,1-1.625,3.75c-1.146,1.333-1.99,1.344-2.792,2.375s-1.708.677-1.708,1.875,1.708,2.25,1.708,2.25l2.792,1.75s3.125,1.25,3.125,1.833-.771,1.188-2.25,2.042-2.667,1.2-5.375,2.625-3.25,1.375-4.75,2.625-.792,1.792-1.875,2.458-4.917.667-4.917.667a6.212,6.212,0,0,0-1.208-4.5,23.236,23.236,0,0,0-5.375-4.583l-.875-2.417Z" transform="translate(-1124.975 -293)" />
@@ -157,16 +188,16 @@
                                 <path id="shape_Zaytoon" class="shape" data-name="الزيتون" d="M1480.125,444.907s-4.625-2.282-5.5-5.657c-1.125,1.25-.75,2.375-3.25,2.125s-3.625-.5-15.375-4.625a2.187,2.187,0,0,0-3.125,0c-1.125,1-4.75,2.625-4.25,2.5s1.875,1.625,1.875,1.625.5-.5-.875,1.125a49.532,49.532,0,0,1-5,4.5,13.365,13.365,0,0,0-3.625-.625c-1.75,0-2.875-.625-4.625,0s-10.375,5.5-10.375,5.5-2.625,1.125-3.25,2.25-1,2.125-2.375,2.25-2.5-.25-2.625.75,1.625,2.25,1.625,3.625.625,2.125-.875,4.25-2.25,4.125-1.75,4.75,2.25.875,1.75,2.375-2,2-1.75,3.5.125,3,2.625,3.25,5.75-.625,6.625,0a6.9,6.9,0,0,1,2.375,3.25c.25,1.125,1.625,1.625,4,1.625s2.313-.719,5.375-1.125,6.875-.5,6.875-.5,4.094-4.312,8.875-10,10.25-12.75,10.25-12.75,2.25-4.875,3.25-5.25,4.75-1.375,5.25-2.25l3.625-1.5Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_Zaytoon" class="label_icon_zone" transform="translate(305 170)">الزيتون</text>
                                 <text id="label_zone_Zaytoon" class="label_zone" transform="translate(270 90)">الزيتون</text>
-                                <text id="label_cout_Zaytoon" class="label_counter_zone">80</text>
-                                <text id="label_new_Zaytoon" class="label_new_zone">1</text>
+                                <text id="label_cout_Zaytoon" class="label_counter_zone">62</text>
+                                <text id="label_new_Zaytoon" class="label_new_zone">0</text>
                             </a>
                             
                             <a id="zone_TalElHawa" class="zone gray-zone" >
                                 <path id="shape_TalElHawa" class="shape" data-name="تل الهوا" d="M1434.375,431.75,1446.25,440h1.25s1.458.229.583,1.625a10.961,10.961,0,0,1-3.5,3.208,21.259,21.259,0,0,1-6.25,0,12.209,12.209,0,0,1-4.917-2.25c-.833-.5-3.917-2.333-4.333-2.583a1.15,1.15,0,0,1-.417-1.75c.583-.917,2.583-1.083,3.25-1.917A45.53,45.53,0,0,0,1434.375,431.75Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_TalElHawa" class="label_icon_zone" transform="translate(295 150)">تل الهوا</text>
                                 <text id="label_zone_TalElHawa" class="label_zone" transform="translate(250 85)">تل الهوا</text>
-                                <text id="label_cout_TalElHawa" class="label_counter_zone">80</text>
-                                <text id="label_new_TalElHawa" class="label_new_zone">1</text>
+                                <text id="label_cout_TalElHawa" class="label_counter_zone">42</text>
+                                <text id="label_new_TalElHawa" class="label_new_zone">0</text>
                             </a>
 
                             <path id="Path_28" class="gray-zone" data-name="Path 28" d="M1407.375,445.25v1.5s3.563,1.688,5.125,3.75,1.5,3.125,1.5,3.125-.375,2.375,1.125,3.25c0-.25.75-.5,1.5.875s2.5,3.25,1.25,4.875-2.625,5.875-2.25,7,1.688-.125,1.5,1.875-1.937,2.406-1.5,4.5,1.625,3.5,3.5,3.5,5.25-.5,6.75.625.875,2.25,2.25,3.25,2.5,1.625,4.25,1.25,1.75-.781,4.625-1.25,6.875-.625,6.875-.625l-20.562,22.188s-8.281-7.937-13.562-12.312-1.844-.594-7.75-5.25S1386.125,474,1386.125,474Z" transform="translate(-1124.975 -293)" />
@@ -175,8 +206,8 @@
                                 <path id="shape_BaitHanoon" class="shape" data-name="بيت حانون" d="M1593.5,352.04l34,26.793a27.044,27.044,0,0,1-5,6.667c-3.708,3.833-8.167,8-9.833,8.667a33.693,33.693,0,0,0-9.5,7c-3.375,3.583-3.5,4.458-4,7.333s1.5,2.292,2,4.167,1,3.333,1,3.333-.833-1.333-3,0-2.167,3-4.333,3-4-2.667-4.333-3-2.5,0-2.5,0a6.734,6.734,0,0,0,1.667-3.333c-.667-1.167-5.5-3.5-6.167-5s-.25-1.708-1.667-3.333a18.532,18.532,0,0,0-4-3.167c-1.167-.833-2-2.667-5.833-3s-3.167-.958-5.5-2.167a28.883,28.883,0,0,1-4.333-2.833,53.117,53.117,0,0,0,5.333-9.667,114.3,114.3,0,0,1,6.167-12.667c.667-1.167,4.167-8,4.167-8s2-4,4-4.833S1593.5,352.04,1593.5,352.04Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_BaitHanoon" class="label_icon_zone" transform="translate(450 90)">بيت حانون</text>
                                 <text id="label_zone_BaitHanoon" class="label_zone" transform="translate(380 30)">بيت حانون</text>
-                                <text id="label_cout_BaitHanoon" class="label_counter_zone">80</text>
-                                <text id="label_new_BaitHanoon" class="label_new_zone">1</text>
+                                <text id="label_cout_BaitHanoon" class="label_counter_zone">319</text>
+                                <text id="label_new_BaitHanoon" class="label_new_zone">3</text>
                             </a>
 
                             <path id="Path_30" class="gray-zone" data-name="Path 30" d="M1561.395,395l8.272,4.667H1573l3.833,2.333,2.167,1.833,1.667,1.5,1.5,3.333s2,1.333,3.167,2.167a13.862,13.862,0,0,1,2.333,2.333,3.559,3.559,0,0,0-1.167,2.167c0,1.125-.042,1.792,1.167,2.333a3.472,3.472,0,0,0,2.5,0l2,1.833s1.167,1.667,2.667,1a57.627,57.627,0,0,0,5.667-3.667l5.333.833h4.333s-1.5,2.333-2.667,2.833-2.167.167-4.167,1a80.231,80.231,0,0,0-8.5,4.167c-1.833,1.167-6.5,3.167-8.333,4.5s-3.958,2.25-5.167,3.333-2.833,3.333-4.5,3.833a67.156,67.156,0,0,1-11.5,2.167,19.25,19.25,0,0,0-8.5,2.833l-5-3.667a31.707,31.707,0,0,0,6.167,0,32.153,32.153,0,0,0,6.333-1.333s1.125-.792,0-2.833-1.375-2.333-4-4.333-2.833-1.5-6.5-3.667-5.708-4.042-8.667-6-3.167-1.833-3.167-1.833,11.151-16.25,16-22.167A19.016,19.016,0,0,0,1561.395,395Z" transform="translate(-1124.976 -293)" />
@@ -189,16 +220,16 @@
                                 <path id="shape_Ijdaida" class="shape" data-name="اجديدة" d="M1507.167,455.333s5.333-4.667,6.5-6.5,2.167-5.667,3.333-6.667c.594-.509,2.346-3.108,5.333-6,1.07-1.036,3.7-2.021,5.167-3.167,1.313-1.029,1.4-2.133,2-2.5a7.24,7.24,0,0,0,2.667-2.333H1519.5s-4.333-.833-5.833,0-2-.167-3.833,1.5-9,3.333-9,3.333l-6.5,1s-5.333,3.667-5.5,5,4.167,5,4.167,5,5.833,4.333,7.833,4.833S1507.167,455.333,1507.167,455.333Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_Ijdaida" class="label_icon_zone" transform="translate(370 150)">اجديدة</text>
                                 <text id="label_zone_Ijdaida" class="label_zone" transform="translate(320 80)">اجديدة</text>
-                                <text id="label_cout_Ijdaida" class="label_counter_zone">80</text>
-                                <text id="label_new_Ijdaida" class="label_new_zone">1</text>
+                                <text id="label_cout_Ijdaida" class="label_counter_zone">100</text>
+                                <text id="label_new_Ijdaida" class="label_new_zone">3</text>
                             </a>
                             
                             <a id="zone_Trkuman" class="zone gray-zone" >
                                 <path id="shape_Trkuman" class="shape" data-name="تركمان" d="M1506,456.833s-4-5.167-5.667-6.167a84.743,84.743,0,0,1-8.833-6.333l-4.167-4.167a19.119,19.119,0,0,1-4,5.5c-2.667,2.5-5,5-5,5s.833,3.833-.833,6.167a14.892,14.892,0,0,0-2.5,6c0,.667.708,1.958,2.5,3.333a15.142,15.142,0,0,0,4.667,2.167c.5.167,4.667.667,5.167,1.667s0,5.167,0,5.167l3-2.667h2.833l3-4.167Z" transform="translate(-1124.976 -293)" />
                                 <text id="label_icon_Trkuman" class="label_icon_zone" transform="translate(350 170)">تركمان</text>
                                 <text id="label_zone_Trkuman" class="label_zone" transform="translate(300 95)">تركمان</text>
-                                <text id="label_cout_Trkuman" class="label_counter_zone">80</text>
-                                <text id="label_new_Trkuman" class="label_new_zone">1</text>
+                                <text id="label_cout_Trkuman" class="label_counter_zone">89</text>
+                                <text id="label_new_Trkuman" class="label_new_zone">2</text>
                             </a>
                             
                             <path id="Path_38" class="gray-zone" data-name="Path 38" d="M1509.729,458.5a3.88,3.88,0,0,0,2.1,2c1.5.833,10.5,11,10.5,11l6-6,14.333-11.167,7.833-7.833,4.167-3.167-6.5-4s-1.667-2.167-.833-3.333,4.333-2.833,4.5-4.5.125-2.75-1.333-2.167-4.5,4.5-4.5,4.5-1.5,2-3.333.833-8.5-5.333-8.5-5.333-1.958,2-4.833,4.5-5.667,3.833-6.667,5.5-3.167,2.833-4.5,5.667-2.333,5.167-3.833,6.667-4.6,4.667-4.6,4.667A2.421,2.421,0,0,0,1509.729,458.5Z" transform="translate(-1124.976 -293)" />
@@ -211,8 +242,8 @@
                                 <path id="shape_zahra" class="shape" data-name="الزهراء" d="M1385,475.167s18.733,15.967,21.333,17.167c-2,1.8-8.933,5.867-8.933,5.867l-3.233.8-2.567,3-2.8,1.6-7.6,5.4s-5.317.458-10.325,1.125-7.531,1.869-11.5,2.438a44.449,44.449,0,0,1-5.062.563l8.854-8.125Z" transform="translate(-1124.975 -293.001)"/>
                                 <text id="label_icon_zahra" class="label_icon_zone" transform="translate(240 200)">الزهراء</text>
                                 <text id="label_zone_zahra" class="label_zone" transform="translate(210 125)">الزهراء</text>
-                                <text id="label_cout_zahra" class="label_counter_zone">80</text>
-                                <text id="label_new_zahra" class="label_new_zone">1</text>
+                                <text id="label_cout_zahra" class="label_counter_zone">10</text>
+                                <text id="label_new_zahra" class="label_new_zone">0</text>
                             </a>
                             
                             <g id="zone_Mugraqa" class=" gray-zone" >
@@ -229,16 +260,16 @@
                                 <path id="shape_Nusirat" class="shape" data-name="النصيرات" d="M1352.4,514.4l8.4-1.2s7.2-1.8,9.8-2.2,9.8-1.8,10.6,0,.238,6.75,1.238,7.75,6.125,1.063,10.963,1.25,3.6.25,6.162,1.125A10.621,10.621,0,0,1,1403.8,524s-3,2.8-3.6,3.4-4.4,3.8-4.4,3.8l-2.113.675L1371.6,550.4l-2.8,2.2-8,6.6s-3.375-.912-4.175-2.513-1.463-4.088-3.062-4.088-2.725,1.463-4.125,1.463-6.625-3.25-7.437-3.662-3.15-3.35-4.75-4.15-4.05-2.45-5.45-2.45-5.55-.675-5.55-.675Z" transform="translate(-1124.975 -293.001)" />
                                 <text id="label_icon_Nusirat" class="label_icon_zone" transform="translate(220 240)">النصيرات</text>
                                 <text id="label_zone_Nusirat" class="label_zone" transform="translate(180 155)">النصيرات</text>
-                                <text id="label_cout_Nusirat" class="label_counter_zone">80</text>
-                                <text id="label_new_Nusirat" class="label_new_zone">1</text>
+                                <text id="label_cout_Nusirat" class="label_counter_zone">38</text>
+                                <text id="label_new_Nusirat" class="label_new_zone">0</text>
                             </a>
 
                             <a id="zone_Buraij" class="zone gray-zone" >
                                 <path id="shape_Buraij" class="shape" data-name="البريج" d="M1397.8,532.917,1394.4,534s-18.114,14.921-26.114,21.571-5.886,5.029-5.886,5.029l11.457,8.971s1.393-.521,4.143.429,1.922.28,3.25,1.438,1.229,2.289.893,3.875a8.086,8.086,0,0,1-1.343,2.888,68.617,68.617,0,0,1,6.137,3.362,46.581,46.581,0,0,1,5.875,4.563s2.78-.205,5.438-4.062c-2.086-.714-3.643-.541-2.393-4.491s4.83-8,4.83-8,4.884-8.343,6.884-10.143,4.571-2.652,4-5.571-3.625-1.446-4.946-3.732-.339-5.411-.339-5.411-2.879-4.336-5-7.286S1397.8,532.917,1397.8,532.917Z" transform="translate(-1124.975 -293.001)" />
                                 <text id="label_icon_Buraij" class="label_icon_zone" transform="translate(255 265)">البريج</text>
                                 <text id="label_zone_Buraij" class="label_zone" transform="translate(220 180)">البريج</text>
-                                <text id="label_cout_Buraij" class="label_counter_zone">80</text>
-                                <text id="label_new_Buraij" class="label_new_zone">1</text>
+                                <text id="label_cout_Buraij" class="label_counter_zone">20</text>
+                                <text id="label_new_Buraij" class="label_new_zone">0</text>
                             </a>
 
                             <path id="Path_48" class="gray-zone" data-name="Path 48" d="M1406.4,563.2s-7.55,11.25-9.2,15.6c-1.057,2.629,2.6,1.8,2.6,1.8s.429,1.007-1.371,3.257-2.143,3.286-6,4.429a17.5,17.5,0,0,1-7.366,2.464l4.366,6.393s3.921-2.643,7.771-5.543,6-5,8-6.6,4.207-2.4,8.657-6.2a117.285,117.285,0,0,0,9.143-9l-1-3.2-6.714-.886a18.672,18.672,0,0,1-5.486-1.114,4.383,4.383,0,0,1-2.4-2.6Z" transform="translate(-1124.975 -293.001)" />
@@ -253,8 +284,8 @@
                                 <path id="shape_Magazi" class="shape" data-name="المغازي" d="M1343.8,580.2l17.771-18.771s8.829,7.857,10.429,8.857,2.8-.086,5.2.714,4.8,2.4,4,3-2.336,2.807-1.486,4.857,4.057,2.571,5.857,3.571a56.911,56.911,0,0,1,6.029,4.771s-2.6,2.6-5.4,2.6-9.1,2.443-17.2,1.343-9.7-2.836-16-5.571A36,36,0,0,1,1343.8,580.2Z" transform="translate(-1124.975 -293.001)" />
                                 <text id="label_icon_Magazi" class="label_icon_zone" transform="translate(225 290)">المغازي</text>
                                 <text id="label_zone_Magazi" class="label_zone" transform="translate(180 205)">المغازي</text>
-                                <text id="label_cout_Magazi" class="label_counter_zone">80</text>
-                                <text id="label_new_Magazi" class="label_new_zone">1</text>
+                                <text id="label_cout_Magazi" class="label_counter_zone">21</text>
+                                <text id="label_new_Magazi" class="label_new_zone">0</text>
                             </a>
                             
                             <path id="Path_52" class="gray-zone" data-name="Path 52" d="M1327.688,598.375s4.554,1.885,11.625,4.688S1356.286,611,1356.286,611l3.964,2.688s-10.838,8.2-13.437,8-5.25-2.875-6.5-3.687-2.838-2.587-4.437-3.187-3.412-1.413-5.812-.812-5.075,2.413-6.875,2.813-4.187,1.887-7.854.787-2.933-3.2-2.933-3.2,5-6.8,7-8.2S1327.688,598.375,1327.688,598.375Z" transform="translate(-1124.975 -293.001)" />
@@ -269,16 +300,16 @@
                                 <path id="shape_DairElBalah" class="shape" data-name="دير البلح" d="M1296.143,638.857s7.681-14.232,11.938-21.757,5.088-8.345,5.088-8.345l6.309-5.5,9.379-8.974s-3.884-1-4.494-3.441a13.6,13.6,0,0,1,0-5.292l-4.885-3.053,1.425-4.478-3.153-2.147a31.091,31.091,0,0,1-1.937,3c-.875,1.125-2.434.923-4.062.313s-11.062-8.875-11.062-8.875l-42.973,45.545s8.266,6.406,10.1,7.83c.2,1.018-.234,3.894.58,6.031s2.822,2.906,4.858,2.906,12.161-1.114,13.179-.911S1296.143,638.857,1296.143,638.857Z" transform="translate(-1124.975 -293.001)" />
                                 <text id="label_icon_DairElBalah" class="label_icon_zone" transform="translate(155 310)">دير البلح</text>
                                 <text id="label_zone_DairElBalah" class="label_zone" transform="translate(125 210)">دير البلح</text>
-                                <text id="label_cout_DairElBalah" class="label_counter_zone">80</text>
-                                <text id="label_new_DairElBalah" class="label_new_zone">1</text>
+                                <text id="label_cout_DairElBalah" class="label_counter_zone">22</text>
+                                <text id="label_new_DairElBalah" class="label_new_zone">0</text>
                             </a>
                             
                             <a id="zone_Zawaida" class="zone gray-zone" >
                                 <path id="shape_Zawaida" class="shape" data-name="الزوايدة" d="M1325.286,544.429a39.658,39.658,0,0,1,7.218,1.233,13.574,13.574,0,0,1,5.371,3.4,39.154,39.154,0,0,0,5.063,3.938s4.09,2.625,6.125,2.625,3.748-1.329,4.563-1.125,1.938,3.625,1.938,3.625l3.875,2.563-18.182,19.777-11.827,13.107s-3.329-.19-4.143-2.429,0-6.143,0-6.143l-4.857-2.571,1.492-4.857-4.635-2.714s-1,4-3.429,4-3.111-1.77-6.286-4a67.49,67.49,0,0,1-6.286-5.143Z" transform="translate(-1124.975 -293.001)" />
                                 <text id="label_icon_Zawaida" class="label_icon_zone" transform="translate(190 275)">الزوايدة</text>
                                 <text id="label_zone_Zawaida" class="label_zone" transform="translate(160 190)">الزوايدة</text>
-                                <text id="label_cout_Zawaida" class="label_counter_zone">80</text>
-                                <text id="label_new_Zawaida" class="label_new_zone">1</text>
+                                <text id="label_cout_Zawaida" class="label_counter_zone">4</text>
+                                <text id="label_new_Zawaida" class="label_new_zone">0</text>
                             </a>
                             
                             <path id="Path_57" class="gray-zone" data-name="Path 57" d="M1252.11,621.577s20.353,16.486,21.574,16.486,8.548,4.274,8.548,4.274l6.716,5.088,6.676-8.176-9.687-6.687s-10.218,1.141-12.253.938-3.806.223-5.434-1.812-1.25-7.437-1.25-7.437l-9.875-7.75Z" transform="translate(-1124.975 -293.001)" />
@@ -287,8 +318,8 @@
                                 <path id="shape_Qarara" class="shape" data-name="القرارة" d="M1298.667,639.667s6.583,2.583,8.583,5.8,5.667,8.862,8.083,11.278,5.615,4.927,9.167,5.25c.184,1.206-1.65,5.073-4,10.75s-2.873,6.891-6.667,11.25-4.667,4.5-8.75,5.583-15.833,1-15.833,1-7.7,2.521-10.577,3.323-7.006,1.594-7.006,1.594,2.083-.833,3.583-4.917,1.271-4.729,2.417-9.333,1.433-4.56,2.167-9.083-1.212-3.9,1.1-9.259,4.633-7.577,8.15-12.158,4.3-3.906,5.917-6.167S1298.667,639.667,1298.667,639.667Z" transform="translate(-1124.975 -293.001)" />
                                 <text id="label_icon_Qarara" class="label_icon_zone" transform="translate(160 380)">القرارة</text>
                                 <text id="label_zone_Qarara" class="label_zone" transform="translate(135 275)">القرارة</text>
-                                <text id="label_cout_Qarara" class="label_counter_zone">80</text>
-                                <text id="label_new_Qarara" class="label_new_zone">1</text>
+                                <text id="label_cout_Qarara" class="label_counter_zone">2</text>
+                                <text id="label_new_Qarara" class="label_new_zone">0</text>
                             </a>
                             
                             <path id="Path_59" class="gray-zone" data-name="Path 59" d="M1325.333,662.083s7.834,2.4,13,1.75c0,1.292-5.125,6.511-6.417,9.417s-1.49,9.938-1.167,13.167,3.25,13.3,3.25,13.3l1.333,6.365h-14.75c-8.352,0-20.75-.876-20.75-.876a24.149,24.149,0,0,0-5.583-6.124c-3.333-2.427-2.965-2.529-7.75-3.583a31.027,31.027,0,0,0-10.5,0l13.329-4.177s11.171.344,15-.49,7.694-2.023,12.417-9.333S1325.333,662.083,1325.333,662.083Z" transform="translate(-1124.975 -293.002)" />
@@ -306,17 +337,17 @@
                             <a id="zone_AbasanElKbira" class="zone gray-zone" >
                                 <path id="shape_AbasanElKbira" class="shape" data-name="عبسان الكبيرة" d="M1290,724.167a51.642,51.642,0,0,0,6.5.833c2.651.234,6.313-.188,9.333,0a10.634,10.634,0,0,1,3.515.873V723.29s9.445-.753,14.208.377,5.277,2.75,6.527,4c1.75,1.5,1,3.75,0,5.167a11.183,11.183,0,0,1-5.333,4.083,13.365,13.365,0,0,1,4.333,3.417c1.382,1.972,1.1,3.072,0,4.583s-5.083,2.5-5.083,2.5l-.444,6.167-6.781-3.493-7.427,10.656-5.489,8.718v3.229l-5.812,1.937h-5.812s-7.033,7.2-6.985,7.2c-3.833,1.583-7.833-1.417-9.5-3.167,2.25-1.25,4.917-4.917,4.917-4.917a7.94,7.94,0,0,0,5.417,0c2.892-1.071,5.083-5.25,5.083-5.25l2.167-3.75,6.917-9.167s-4.167-4.25-5.917-6.333-3.417-1.333-4.333-.75c-1.917,3.833-3.917,3.417-3.917,3.417V741.25l.5-4.917s-.479-1.167-1.25-3c-.388-.907-1.5-2.191-1.167-3.333C1284.934,727.385,1290,724.167,1290,724.167Z" transform="translate(-1124.975 -293.002)" />
                                 <text id="label_icon_AbasanElKbira" class="label_icon_zone" transform="translate(160 450)">عبسان الكبيرة</text>
-                                <text id="label_zone_AbasanElKbira" class="label_zone" transform="translate(125 345)">عبسان الكبيرة</text>
-                                <text id="label_cout_AbasanElKbira" class="label_counter_zone">80</text>
-                                <text id="label_new_AbasanElKbira" class="label_new_zone">1</text>
+                                <text id="label_zone_AbasanElKbira" class="label_zone" transform="translate(125 345)">عبسان</text>
+                                <text id="label_cout_AbasanElKbira" class="label_counter_zone">7</text>
+                                <text id="label_new_AbasanElKbira" class="label_new_zone">0</text>
                             </a>
 
                             <a id="zone_Qarara" class="zone gray-zone" >
                                 <path id="shape_BaniSehila" class="shape" data-name="بني سهيلا" d="M1267.5,745.833c1.776,2.5,8.833-8.333,8.833-8.333l1.75,4.083,7.417-2.667a8.053,8.053,0,0,0,0-3.5c-.4-2.166-3.784-3.225-1.661-6.583s8.494-8,8.494-8,3.793-3.7,4.667-7.167,2.066-6.466.667-9.417-3.917-4.583-6.5-6-4.672-2.12-9.587-2.333-11.913,1.333-11.913,1.333-.6,1.119-4.232,3.114-4.6,3.352-7.1,5.719-2.917,3.75-2.917,3.75,3.958,2.357,5.25,5.667-.625,3.917,0,6.75.934,3.281,2.5,4.583c1.041.866,1.86.562,3.083,1.083a2.083,2.083,0,0,1,1.25,1.25C1268.016,733.753,1265.724,743.331,1267.5,745.833Z" transform="translate(-1124.975 -293.002)" />
                                 <text id="label_icon_BaniSehila" class="label_icon_zone" transform="translate(130 420)">بني سهيلا</text>
                                 <text id="label_zone_BaniSehila" class="label_zone" transform="translate(100 325)">بني سهيلا</text>
-                                <text id="label_cout_BaniSehila" class="label_counter_zone">80</text>
-                                <text id="label_new_BaniSehila" class="label_new_zone">1</text>
+                                <text id="label_cout_BaniSehila" class="label_counter_zone">8</text>
+                                <text id="label_new_BaniSehila" class="label_new_zone">0</text>
                             </a>
 
                             <path id="Path_64" class="gray-zone" data-name="Path 64" d="M1268.667,747.167a19.127,19.127,0,0,0,3.667-2.75,28.482,28.482,0,0,0,3.833-5.25l1.5,3.25,7.787-2.75v12.684a3.165,3.165,0,0,0,2.629-.351c1.345-.838,1.378-2.273,2.75-3a2.555,2.555,0,0,1,2.693.445l5.812,6.458s-4.712,5.781-7.255,9.348-1.141,3.06-2.917,4.917-1.735,2.137-3.713,2.849a7.387,7.387,0,0,1-4.2,0l5.577-7.766s2.333-3.333,0-5.083S1268.667,747.167,1268.667,747.167Z" transform="translate(-1124.975 -293.002)" />
@@ -326,8 +357,8 @@
                                 <path id="shape_Fukhari" class="shape" data-name="الفخاري" d="M1259.083,781.083l5.705-3.224s.969,1.292,3.875,1.615a42.64,42.64,0,0,0,6.781,0,11.589,11.589,0,0,0,4.389,2.943,17.2,17.2,0,0,0,5.943.609l14.031,15.251s.534.588.442.973-.809.566-.809.566l-7.608,4.1s-8.7,4.857-16.389,8.816c-5.288,2.724-9.966,4.934-10.656,4.521-1.615-.969-2.1-2.52-3.955-4.521s-3.471-3.482-3.471-3.482l1.138-8.5-1.138-3.194Z" transform="translate(-1124.975 -293.002)" />
                                 <text id="label_icon_Fukhari" class="label_icon_zone" transform="translate(135 505)">الفخاري</text>
                                 <text id="label_zone_Fukhari" class="label_zone" transform="translate(85 395)">الفخاري والمنارة</text>
-                                <text id="label_cout_Fukhari" class="label_counter_zone">80</text>
-                                <text id="label_new_Fukhari" class="label_new_zone">1</text>
+                                <text id="label_cout_Fukhari" class="label_counter_zone">7</text>
+                                <text id="label_new_Fukhari" class="label_new_zone">0</text>
                             </a>
                             
                             <path id="Path_67" class="gray-zone" data-name="Path 67" d="M1323.583,754.5c-.25,5.083-.333,17.667-.333,17.667l-11.833,10.75a80.231,80.231,0,0,0,11.833,6.417c3.833,7.167,8.344,14.979,11.25,14.333-4.2,1.937-26.333,15.917-28.833,16.583-2.26-.323-3.25,4.917-3.25,4.917s-9.3,18.167-14.792,23.333-8.125,7.875-8.125,7.875-8.81-16.812-13.42-27.25-5.018-14.5-5.018-14.5,2.438,3.625,3.875,3.688c1.226.053,27.388-13.794,35.314-18,1.06-.563.782-.451.832-1.141a3.213,3.213,0,0,0-.634-1.621l-14.283-15.629s4.167-4.333,6.583-6.5c1.453-.505,3.75.583,5.75,0s6.333-2.167,6.333-2.167a5.32,5.32,0,0,1,.75-4.417c1-3.5,11.5-17.917,11.5-17.917S1322.667,753.417,1323.583,754.5Z" transform="translate(-1124.975 -293.003)" />
@@ -338,16 +369,16 @@
                                 <path id="shape_Hamad" class="shape"  data-name="مدينة حمد" d="M1266.5,634.833s1.53.958,6.833,4.667c1.782,1.246,4.186,1.807,6.583,3.25a83.211,83.211,0,0,1,7.667,5.333S1278,660,1277.8,667c-1.8-2.6-10.8-10.6-16.2-14a3.453,3.453,0,0,0,2.066-2.752c.716-3,.015-7.049.8-10.25A18.81,18.81,0,0,1,1266.5,634.833Z" transform="translate(-1124.974 -293.002)" />
                                 <text id="label_icon_Hamad" class="label_icon_zone" transform="translate(120 360)">مدينة حمد</text>
                                 <text id="label_zone_Hamad" class="label_zone" transform="translate(100 270)">مدينة حمد</text>
-                                <text id="label_cout_Hamad" class="label_counter_zone">80</text>
-                                <text id="label_new_Hamad" class="label_new_zone">1</text>
+                                <text id="label_cout_Hamad" class="label_counter_zone">7</text>
+                                <text id="label_new_Hamad" class="label_new_zone">0</text>
                             </a>
 
                             <a id="zone_WasatBalad" class="zone gray-zone" >
                                 <path id="shape_WasatBalad" class="shape" data-name="وسط البلد" d="M1277.333,667.75c-.646,2.26-2.125,2.849-8.167,8.5s-7.083,7.5-12.583,12.25-7.75,4.75-9.417,7.25-2.083,9.25-2.083,9.25-6.5-3.1-13.583-7.083-10.667-4.75-14.917-9.417c-2.333-3.333-.917-9.5-2.083-10.917s-.492-.6-1.167-1.417,1.667-2,1.667-2a39.363,39.363,0,0,1,9.667-9.333c6.325-4.346,7.378-5.683,12.917-8.417,2.249-1.11,4.718-1.781,6.083-2.333a36.392,36.392,0,0,1,6.833-1.583,54.288,54.288,0,0,1,9.768.4C1261.237,652.9,1277.979,665.49,1277.333,667.75Z" transform="translate(-1124.974 -293.002)" />
                                 <text id="label_icon_WasatBalad" class="label_icon_zone" transform="translate(100 385)">خانيونس</text>
                                 <text id="label_zone_WasatBalad" class="label_zone" transform="translate(80 285)">وسط البلد</text>
-                                <text id="label_cout_WasatBalad" class="label_counter_zone">80</text>
-                                <text id="label_new_WasatBalad" class="label_new_zone">1</text>
+                                <text id="label_cout_WasatBalad" class="label_counter_zone">116</text>
+                                <text id="label_new_WasatBalad" class="label_new_zone">0</text>
                             </a>
                             
                             <g id="zone_Mwasi" class="gray-zone" >
@@ -363,8 +394,8 @@
                                 <path id="shape_Najar" class="shape" data-name="قيزان النجار" d="M1242.75,705.752s-1.5,13.252-1.5,13c-1.811.745-4.646,4.4-7.25,6.25s-3.167,1.454-3.167,1.167c-1.5-3.833-1.333-11.917,3.167-14.917,3.674-1.5,4.371-4.938,6-6.25C1240.431,704.628,1241.256,705.337,1242.75,705.752Z" transform="translate(-1124.974 -293.002)" />
                                 <text id="label_icon_Najar" class="label_icon_zone" transform="translate(70 430) rotate(-10)">قيزان النجار</text>
                                 <text id="label_zone_Najar" class="label_zone" transform="translate(65 330)">قيزان النجار</text>
-                                <text id="label_cout_Najar" class="label_counter_zone">80</text>
-                                <text id="label_new_Najar" class="label_new_zone">1</text>
+                                <text id="label_cout_Najar" class="label_counter_zone">3</text>
+                                <text id="label_new_Najar" class="label_new_zone">0</text>
                             </a>
                             
                             <path id="Path_74" class="gray-zone" data-name="Path 74" d="M1277.583,669.5s-2.292,16.344-6.167,21.833-7.25,7.583-7.25,7.583-9.208,6.531-10.5,10.083-.81,4.526-2.667,7.917a31.225,31.225,0,0,1-4.939,6.373l-3.894-3.207,1.917-14.25,1.977.5s.814-8.969,2.106-10.583,2.487-1.093,9.841-7.656S1277.583,669.5,1277.583,669.5Z" transform="translate(-1124.975 -293.002)" />
@@ -383,7 +414,7 @@
                                 <path id="shape_RafahElGarbia" class="shape" data-name="رفح الغربية" d="M1136.917,775.833s14.583-5.667,20.333-3.083a7.625,7.625,0,0,1,2.274,2.2,5.562,5.562,0,0,1,2.059.463c.646.4.667,1.917.667,1.917s13.917-4.083,18.833-5.417c-1.75-1.417-22.851-13.754-22.851-13.754l-24.149-14.746-9.109,9.9Z" transform="translate(-1124.974 -293.002)" />
                                 <text id="label_icon_RafahElGarbia" class="label_icon_zone" transform="translate(5 470)">رفح الغربية</text>
                                 <text id="label_zone_RafahElGarbia" class="label_zone" transform="translate(0 365)">رفح الغربية</text>
-                                <text id="label_cout_RafahElGarbia" class="label_counter_zone">80</text>
+                                <text id="label_cout_RafahElGarbia" class="label_counter_zone">15</text>
                                 <text id="label_new_RafahElGarbia" class="label_new_zone">1</text>
                             </a>
                             
@@ -391,8 +422,8 @@
                                 <path id="shape_TalElSultan" class="shape" data-name="تل السلطان" d="M1141.917,785.75l-4.35-9.182s12.6-4.735,18.766-3.151a4.019,4.019,0,0,1,2.25,2.583s2.25-.182,2.75,1-.167,5.083,2,5.75a5.892,5.892,0,0,0,3.75,0s.3,2.49-1,3.75a3.815,3.815,0,0,1-3.833,0,18.249,18.249,0,0,0-8.917-3.75C1148.813,782.1,1141.917,785.75,1141.917,785.75Z" transform="translate(-1124.974 -293.002)" />
                                 <text id="label_icon_TalElSultan" class="label_icon_zone" transform="translate(15 490)">تل السلطان</text>
                                 <text id="label_zone_TalElSultan" class="label_zone" transform="translate(0 390)">تل السلطان</text>
-                                <text id="label_cout_TalElSultan" class="label_counter_zone">80</text>
-                                <text id="label_new_TalElSultan" class="label_new_zone">1</text>
+                                <text id="label_cout_TalElSultan" class="label_counter_zone">3</text>
+                                <text id="label_new_TalElSultan" class="label_new_zone">0</text>
                             </a>
                             
                             <path id="Path_82" class="gray-zone" data-name="Path 82" d="M1142.667,786.583s6.125-3.323,10-3,6.271,1.229,9.958,4.417,17,14.813,17,14.813-7.875,8.063-10.687,11.875-3.687,6.438-3.687,8.125a4.5,4.5,0,0,0,1.563,3.563c.646.323,1,2.563,1,4.5a2.1,2.1,0,0,0,1.125,2.125,3.223,3.223,0,0,1-.045,1.378c-1.017.309-.955,1.622.045,2.5a13.618,13.618,0,0,0,5.25,2.563c2.375.625,20.855-4.1,24.407-2.488s4.655,2.925,4.655,2.925-4.053,1.987-10.625,7.875-15.25,16.313-15.25,16.313L1155,799.817h-4.566Z" transform="translate(-1124.974 -293.003)" />
@@ -401,8 +432,8 @@
                                 <path id="shape_RafahElShargia" class="shape" data-name="رفح الشرقية" d="M1178.313,865.75s6.156-7.391,11.5-12.687a87.249,87.249,0,0,1,9.875-8.5s5.4-.854,8.625.438,3.521,5.646,2.875,8.875a50.508,50.508,0,0,0-1.187,9.313c.063,2.25,1.386,6.3,4.938,6.625s8.563-.25,12.688,2a128.263,128.263,0,0,1,11.563,7.938s-8.375,4.99-10.312,5.313-6.344,3.74-7.312,6-14,17.091-15.687,18.216-3.38,2.906-4.187,2.906-.875-1.935-.875-1.935l-7.187,2.938Z" transform="translate(-1124.974 -293.003)" />
                                 <text id="label_icon_RafahElShargia" class="label_icon_zone" transform="translate(60 590)">رفح الشرقية</text>
                                 <text id="label_zone_RafahElShargia" class="label_zone" transform="translate(30 455)">رفح الشرقية</text>
-                                <text id="label_cout_RafahElShargia" class="label_counter_zone">80</text>
-                                <text id="label_new_RafahElShargia" class="label_new_zone">1</text>
+                                <text id="label_cout_RafahElShargia" class="label_counter_zone">22</text>
+                                <text id="label_new_RafahElShargia" class="label_new_zone">3</text>
                             </a>
                             
                             <g id="zone_Shuka" class="gray-zone" >
@@ -418,49 +449,56 @@
 
                         </g>
 
+                        <path id="Path_154" data-name="Path 154" class="red-stroke big-stroke" d="M604,60s-15.333,3.333-17.333,13.333C577,87.667,576.333,94,573.333,98S572,102,564,105.333s-9.333,6-18,7.667-19.667,10-19.667,12,.667,2.667-4.667,2.667-10.667,8-12.333,9-3.333,3.333-6,4.667c-2.8.147-4.565,4.046-6.667,7.333-2.3,3.586-4.768,6.845-7,8.333-4,2.667-8.333,5-11.667,5.667s-1.333,3-3.333,6.667S466,180.667,466,180.667s-15,19.667-22.667,24-5.333,8-8.667,10.667-23.333,22.667-25.333,24A12.431,12.431,0,0,1,404.667,241S376,262.333,372,268.333,352,290,352.667,290s-10.333,11.667-13,13.667-15.333,13-18.333,18.333-6.667,13.333-9.333,18.667-9.333,13.333-13.333,18-8.667,12.667-9.333,18.667-2,18-6,23.333-14,10.667-18,16c-.667,1.333-3.333,14-8,15.333-1.26.36-2.057-1.217-3-1.667-1.534-.68-1.783-1.667-3-1.667-4.333,4-6,5.667-8.667,7.333s-6.333,1.333-12,10C229,448.667,220.333,459.667,220,464s-3.333,18.667-9.333,20c-.667,1.333.333,6.333-4.667,11.667s-27.333,25-29.333,33.667c-.847,2.963.5,2.783,2.333,5.333-1.333,7.333,2.333,4.873,2.333,6.333-1.333,3-3.667,5,6.333,5.667,4,.667,13-3.667,18.333-3.667s5.333,3,11.333,3.667,34-17.333,34-17.333A36.039,36.039,0,0,0,260.667,520c3.5-5.5,4-10.667,4.667-12.667s5.333-17.333,4-43.333c-.667-6-5.667-15.333-8.667-18,1.667-5.667-2.5-10.5-3.333-14" transform="translate(-130 7)"/>
+                        <path id="Path_155" data-name="Path 155" class="red-stroke big-stroke" d="M435,215.333s11.333.667,36-11c3-1.333,10,0,10,0a15.343,15.343,0,0,0,5.667-4.667c3-3.667,8.333-12.667,12.667-15s4,0,7.667-5.667,18-20,18-20,3.333-10.333,9.333-14.667,7.333-4,11-8.333S569,103,569,103" transform="translate(-130 7)" />
+                        <path id="Path_156" data-name="Path 156" class="red-stroke big-stroke" d="M218.667,546.333s-15,8.667-29.667,26" transform="translate(-130 7)"/>
+                        <path id="Path_157" data-name="Path 157" class="red-stroke" d="M365.4,222s21.333-4.267,24.267-4.333,3.667-.667,3.667,4.333.667,5.667,6.667,5.667c1.5,0,3.1.063,5.007.238,4.473.408,9.16,1.6,10.66,4.1,2,3.333-.667,4.667-2.333,5.333s-6,1.667-5,4,5.933,3.6,8.267,8.267,1.2,4.2,1.2,7.6,5.533.133,6.533,3.8S420,263.667,419,267s-2.333,6.333,2.667,6.333,9.333-2.667,11,0A27.7,27.7,0,0,1,435.2,278.6" transform="translate(-130 7)"/>
+                        <path id="Path_158" data-name="Path 158" class="red-stroke" d="M366.889,222.234s19.844-4.5,22.777-4.567,3.667-.667,3.667,4.333.667,5.667,6.667,5.667c1.5,0,3.1.063,5.007.238,4.473.408,9.16,1.6,10.66,4.1,2,3.333-.667,4.667-2.333,5.333s-6,1.667-5,4,5.933,3.6,8.267,8.267,1.2,4.2,1.2,7.6,5.533.133,6.533,3.8S420,263.667,419,267s-2.333,6.333,2.667,6.333,9.333-2.667,11,0a17.215,17.215,0,0,1,2.007,6.513" transform="matrix(0.998, 0.07, -0.07, 0.998, -110, -22)"/>
+
+
                         <a id="North_Section" class="section" data-name="شمال غزة" transform="translate(-1134 -364)">
                             <path class="blue-fill" data-name="" d="M26.5,80h0c-.069-.09-6.96-9.153-13.587-20.01A139.9,139.9,0,0,1,3.767,42.755C1.07,36.47-.189,31.377.023,27.617.008,27.241,0,26.865,0,26.5A26.507,26.507,0,0,1,50.918,16.185,26.332,26.332,0,0,1,53,26.5c0,.365-.008.742-.023,1.118.213,3.759-1.047,8.852-3.744,15.138a139.9,139.9,0,0,1-9.145,17.234C33.462,70.845,26.569,79.909,26.5,80ZM27,4.5A22.5,22.5,0,1,0,49.5,27,22.525,22.525,0,0,0,27,4.5Z" transform="translate(1651 424)"/>
                             <rect class="red-fill" data-name="" width="116" height="36" rx="3" transform="translate(1620 504)"/>
                             <text id="text_North" class="text_section white-fill" data-name="شمال غزة" transform="translate(1635 526)"><tspan x="0" y="0">شمال غزة</tspan></text>
-                            <text id="num_North" class="num_section blue-fill" data-name="" transform="translate(1660 459)"><tspan x="0" y="0">222</tspan></text>
+                            <text id="num_North" class="num_section blue-fill" data-name="" transform="translate(1660 459)"><tspan x="0" y="0">857</tspan></text>
                             <rect class="white-fill" data-name="" width="24" height="22" rx="3" transform="translate(1703 511)"/>
-                            <text id="new_North" class="new_section blue-fill" data-name="" transform="translate(1715 526)"><tspan x="-7.998" y="0">+12</tspan></text>
+                            <text id="new_North" class="new_section blue-fill" data-name="" transform="translate(1720 522)"><tspan x="-13" y="4">+13</tspan></text>
                         </a>
 
                         <a id="Gaza_Section" class="section" data-name="غزة" transform="translate(-1260 -241)">
                             <path class="blue-fill" data-name="" d="M26.5,80h0c-.069-.09-6.96-9.153-13.587-20.01A139.9,139.9,0,0,1,3.767,42.755C1.07,36.47-.189,31.377.023,27.617.008,27.241,0,26.865,0,26.5A26.507,26.507,0,0,1,50.918,16.185,26.332,26.332,0,0,1,53,26.5c0,.365-.008.742-.023,1.118.213,3.759-1.047,8.852-3.744,15.138a139.9,139.9,0,0,1-9.145,17.234C33.462,70.845,26.569,79.909,26.5,80ZM27,4.5A22.5,22.5,0,1,0,49.5,27,22.525,22.525,0,0,0,27,4.5Z" transform="translate(1670 424)"/>
                             <rect class="red-fill" data-name="" width="70" height="36" rx="3" transform="translate(1666 504)"/>
                             <text id="text_Gaza" class="text_section white-fill" data-name="غزة" transform="translate(1675 526)"><tspan x="0" y="0">غزة</tspan></text>
-                            <text id="num_Gaza" class="num_section blue-fill" data-name="" transform="translate(1679 459)"><tspan x="0" y="0">222</tspan></text>
+                            <text id="num_Gaza" class="num_section big_num_section blue-fill" data-name="" transform="translate(1679 459)"><tspan x="0" y="0">1060</tspan></text>
                             <rect class="white-fill" data-name="" width="24" height="22" rx="3" transform="translate(1703 511)"/>
-                            <text id="new_Gaza" class="new_section blue-fill" data-name="" transform="translate(1715 526)"><tspan x="-7.998" y="0">+12</tspan></text>
+                            <text id="new_Gaza" class="new_section blue-fill" data-name="" transform="translate(1720 522)"><tspan x="-13" y="4">+30</tspan></text>
                         </a>
 
                         <a id="Wsta_Section" class="section" data-name="الوسطى" transform="translate(-1552 -255)">
                             <path class="blue-fill" data-name="" d="M26.5,80h0c-.069-.09-6.96-9.153-13.587-20.01A139.9,139.9,0,0,1,3.767,42.755C1.07,36.47-.189,31.377.023,27.617.008,27.241,0,26.865,0,26.5A26.507,26.507,0,0,1,50.918,16.185,26.332,26.332,0,0,1,53,26.5c0,.365-.008.742-.023,1.118.213,3.759-1.047,8.852-3.744,15.138a139.9,139.9,0,0,1-9.145,17.234C33.462,70.845,26.569,79.909,26.5,80ZM27,4.5A22.5,22.5,0,1,0,49.5,27,22.525,22.525,0,0,0,27,4.5Z" transform="translate(1656 424)"/>
                             <rect class="red-fill" data-name="" width="107" height="36" rx="3" transform="translate(1629 504)"/>
                             <text id="text_Wsta" class="text_section white-fill" data-name="الوسطى" transform="translate(1645 526)"><tspan x="0" y="0">الوسطى</tspan></text>
-                            <text id="num_Wsta" class="num_section blue-fill" data-name="" transform="translate(1665 459)"><tspan x="0" y="0">222</tspan></text>
+                            <text id="num_Wsta" class="num_section blue-fill" data-name="" transform="translate(1665 459)"><tspan x="0" y="0">115</tspan></text>
                             <rect class="white-fill" data-name="" width="24" height="22" rx="3" transform="translate(1703 511)"/>
-                            <text id="new_Wsta" class="new_section blue-fill" data-name="" transform="translate(1715 526)"><tspan x="-7.998" y="0">+12</tspan></text>
+                            <text id="new_Wsta" class="new_section blue-fill" data-name="" transform="translate(1720 522)"><tspan x="-10" y="4">+0</tspan></text>
                         </a>
 
                         <a id="KhanYounes_Section" class="section" data-name="خانيونس" transform="translate(-1395 -27)">
                             <path class="blue-fill" data-name="" d="M26.5,80h0c-.069-.09-6.96-9.153-13.587-20.01A139.9,139.9,0,0,1,3.767,42.755C1.07,36.47-.189,31.377.023,27.617.008,27.241,0,26.865,0,26.5A26.507,26.507,0,0,1,50.918,16.185,26.332,26.332,0,0,1,53,26.5c0,.365-.008.742-.023,1.118.213,3.759-1.047,8.852-3.744,15.138a139.9,139.9,0,0,1-9.145,17.234C33.462,70.845,26.569,79.909,26.5,80ZM27,4.5A22.5,22.5,0,1,0,49.5,27,22.525,22.525,0,0,0,27,4.5Z" transform="translate(1656 424)"/>
                             <rect class="red-fill" data-name="" width="107" height="36" rx="3" transform="translate(1629 504)"/>
                             <text id="text_KhanYounes" class="text_section white-fill" data-name="خانيونس" transform="translate(1642 526)"><tspan x="0" y="0">خانيونس</tspan></text>
-                            <text id="num_KhanYounes" class="num_section blue-fill" data-name="" transform="translate(1665 459)"><tspan x="0" y="0">222</tspan></text>
+                            <text id="num_KhanYounes" class="num_section blue-fill" data-name="" transform="translate(1665 459)"><tspan x="0" y="0">150</tspan></text>
                             <rect class="white-fill" data-name="" width="24" height="22" rx="3" transform="translate(1703 511)"/>
-                            <text id="new_KhanYounes" class="new_section blue-fill" data-name="" transform="translate(1715 526)"><tspan x="-7.998" y="0">+12</tspan></text>
+                            <text id="new_KhanYounes" class="new_section blue-fill" data-name="" transform="translate(1720 522)"><tspan x="-10" y="4">+0</tspan></text>
                         </a>
 
                         <a id="Rafah_Section" class="section" data-name="رفح" transform="translate(-1500 117)">
                             <path class="blue-fill" data-name="" d="M26.5,80h0c-.069-.09-6.96-9.153-13.587-20.01A139.9,139.9,0,0,1,3.767,42.755C1.07,36.47-.189,31.377.023,27.617.008,27.241,0,26.865,0,26.5A26.507,26.507,0,0,1,50.918,16.185,26.332,26.332,0,0,1,53,26.5c0,.365-.008.742-.023,1.118.213,3.759-1.047,8.852-3.744,15.138a139.9,139.9,0,0,1-9.145,17.234C33.462,70.845,26.569,79.909,26.5,80ZM27,4.5A22.5,22.5,0,1,0,49.5,27,22.525,22.525,0,0,0,27,4.5Z" transform="translate(1673 424)"/>
                             <rect class="red-fill" data-name="" width="73" height="36" rx="3" transform="translate(1663 504)"/>
                             <text id="text_Rafah" class="text_section white-fill" data-name="رفح" transform="translate(1673 526)"><tspan x="0" y="0">رفح</tspan></text>
-                            <text id="num_Rafah" class="num_section blue-fill" data-name="" transform="translate(1682 459)"><tspan x="0" y="0">222</tspan></text>
+                            <text id="num_Rafah" class="num_section blue-fill" data-name="" transform="translate(1686 459)"><tspan x="0" y="0">41</tspan></text>
                             <rect class="white-fill" data-name="" width="24" height="22" rx="3" transform="translate(1703 511)"/>
-                            <text id="new_Rafah" class="new_section blue-fill" data-name="" transform="translate(1715 526)"><tspan x="-7.998" y="0">+12</tspan></text>
+                            <text id="new_Rafah" class="new_section blue-fill" data-name="" transform="translate(1720 522)"><tspan x="-10" y="4">+4</tspan></text>
                         </a>
 
                     </g>
@@ -478,7 +516,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript">
     $( document ).ready(function() {
-        
+        n =  new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+
         $(function() {
             $('.section').hover(function(){
                 var sectionId = this.id.split("_")[0];
@@ -499,7 +542,14 @@
                 $tooltip.children( ".zone_tooltip_name" ).html(zoneText);
                 $tooltip.children( ".zone_tooltip_number" ).html(zoneCounter);
                 $tooltip.children( ".zone_tooltip_new" ).html("<sup>+</sup>"+zoneNew);
-                $tooltip.css({"top": + y + "px", "left": + x + "px"}).show();
+
+                if ($(window).width() < 576) {
+                    $tooltip.css({"top": "0px", "right": "55%", 'left' : 'initial'}).show();
+                }
+                else {
+                    $tooltip.css({"top": + y + "px", "left": + x + "px", 'right' : 'initial'}).show();
+                }
+
 
                 /*var t = this.getBoundingClientRect().top,
                     l = this.getBoundingClientRect().left;
